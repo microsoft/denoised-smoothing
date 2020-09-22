@@ -1,8 +1,8 @@
-# Black-box Smoothing: A Provable Defense for Pretrained Classifiers
+# Denoised Smoothing: A Provable Defense for Pretrained Classifiers
 
 This repository contains the code and models necessary to replicate the results of our recent paper:
 
-**Black-box Smoothing: A Provable Defense for Pretrained Classifiers** <br>
+**Denoised Smoothing: A Provable Defense for Pretrained Classifiers** <br>
 *Hadi Salman, Mingjie Sun, Greg Yang, Ashish Kapoor, J. Zico Kolter* <br>
 Paper: https://arxiv.org/abs/2003.01908
 
@@ -47,12 +47,12 @@ Let us dive into the files in [code/](code):
 
 ## Getting Started
 
-1.  `git clone https://github.com/microsoft/blackbox-smoothing.git`
+1.  `git clone https://github.com/microsoft/denoised-smoothing.git`
 
 2.  Install dependencies:
     ```
-    conda create -n blackbox-smoothing python=3.6
-    conda activate blackbox-smoothing
+    conda create -n denoised-smoothing python=3.6
+    conda activate denoised-smoothing
     conda install numpy matplotlib pandas seaborn scipy==1.1.0
     conda install pytorch torchvision cudatoolkit=10.0 -c pytorch # for Linux
     pip install google-cloud-vision boto3 clarifai
