@@ -4,7 +4,8 @@ This repository contains the code and models necessary to replicate the results 
 
 **Denoised Smoothing: A Provable Defense for Pretrained Classifiers** <br>
 *Hadi Salman, Mingjie Sun, Greg Yang, Ashish Kapoor, J. Zico Kolter* <br>
-Paper: https://arxiv.org/abs/2003.01908
+Paper: https://arxiv.org/abs/2003.01908 <br>
+Blog post: https://www.microsoft.com/en-us/research/blog/denoised-smoothing-provably-defending-pretrained-classifiers-against-adversarial-examples/
 
 Our paper presents a method for provably defending any pretrained image classifier against Lp adversarial attacks.
 
